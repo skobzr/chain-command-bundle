@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autowire: true
+    skobzr\ChainCommandBundle\Service\ChainCommandService: ~
+    skobzr\ChainCommandBundle\EventListener\ChainCommandListener:
+        tags:
+            - { name: kernel.event_listener, event: console.command, method: onConsoleCommand }
+            - { name: kernel.event_listener, event: console.terminate, method: onConsoleTerminate }
