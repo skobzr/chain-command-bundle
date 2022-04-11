@@ -1,6 +1,6 @@
 {
   "name": "skobzr/chain-command-bundle",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "symfony-bundle",
   "description": "Test bundle for command chain",
   "license": "proprietary",
