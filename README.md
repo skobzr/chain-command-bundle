@@ -2,7 +2,7 @@
 ============
 Установка и настройка
 ---------------------
-1. Установить пакет в Symfony-приложение через команду `composer require skobzr/chain-command-bundle`, подавили в composer.json проекта ссылку на репозиторий:
+1. Установить пакет в Symfony-приложение через команду `composer require skobzr/chain-command-bundle`, добавив в composer.json проекта ссылку на репозиторий:
 
     ```json
     "repositories": [
